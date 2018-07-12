@@ -1,170 +1,224 @@
 body,html {
     font-size: 26.66666666666667vw;
 }
-/*头部*/
-#header {
-    /*background-color: red;*/
-    width: 100vw;
-    height: 0.5rem;
-    background-color: #222222;
-    position: relative;
-    /*height: 1rem;*/
+*{
+    -webkit-tap-highlight-color: transparent;
 }
-#header .head_box {
-    width: 100%;
-    height: 100%;
-    background-color: #222222;
+/*头部*/
+.header {
+    width: 3.45rem;
+    height: 0.7rem;
+    background-color: #fff;
+    border-bottom: 0.02rem solid #dcdddd;
+    padding: 0 0.15rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logoSection {
+    display: flex;
+    align-items: center;
+    line-height: 0.7rem;
+}
+.logo {
+    width: 0.9rem;
+    height: 0.22rem;
+}
+.logoLine{
+    width: 1px;
+    height: 0.23rem;
+    background: #dcdddd;
+    margin: 0 0.1rem;
+}
+.logoText {
+    width: 1.22rem;
+    height: 0.12rem;
+}
+.downMenuIcon {
+    width: 0.22rem;
+    height: 0.18rem;
+}
+.downMenuBox {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
     left: 0;
     top: 0;
-    /*justify-content: space-around;*/
-    align-items: center;
-    position: absolute;
-}
-#header .head_box .head_logo {
-    position: absolute;
-    left: calc(50% - .16rem);
-}
-#header .head_box .head_logo > a{
-    display: inline-block;
-    width: 0.32rem;
-    height: 0.32rem;
-    background: url(../images/logo/home_LOGO_1.png) center center no-repeat;
-    background-size: 0.32rem 0.32rem;
-}
-#header .head_box .head_menu_icon {
-    position: absolute;
-    left: .1rem;
-    width: 0.15rem;
-    height: 0.14rem;
-    background: url(../images/logo/home_menu_icon.png) center/0.15rem 0.14rem no-repeat;
-    /*cursor: pointer;*/
-}
-#header .head_box .head_loadicon {
-    position: absolute;
-    right: .3rem;
-    /*cursor: pointer;*/
-}
-#header .head_box .head_loadicon > a {
-    display: inline-block;
-    font-size: .12rem;
-    color: #222;
-    width: 0.6rem;
-    height: 0.25rem;
-    text-align: center;
-    line-height: 0.24rem;
-    background-color: #fff;
-    border-radius: 0.05rem;
-}
-/*头部下拉菜单*/
-#header #head_nav {
-    width: 100vw;
-    min-height: calc(100vh - 0.5rem);
-    background-color: #222;
-    position: absolute;
-    left: 0;
-    top: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
     display: none;
 }
-#header #head_nav > div {
+.closeIconBox {
+    width: 3.45rem;
+    padding: 0 0.15rem;
+    height: 0.7rem;
     display: flex;
-    justify-content: center;
-}
-#head_nav .head_nav_box {
-    width: 2.75rem;
-    height: calc(100vh - 0.6rem);
-    padding-top: .1rem;
-}
-#head_nav .head_nav_box .head_navBtn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: .45rem;
-    border-bottom: 0.01rem solid #fff;
-    color: #fff;
-    font-size: 0.12rem;
-}
-/*尾部*/
-.footer {
-    width: 100vw;
-    min-height: 1.5rem;
-    background-color: #222;
-    display: flex;
-    justify-content: center;
-}
-.footer .footer_visit_pc {
-    display: flex;
-    justify-content: center;
-}
-.footer .footer_visit_pc > a {
-    margin: 0.1rem 0 0.25rem 0;
-    display: block;
-    width: 0.6rem;
-    height: 0.15rem;
-    font-size: 0.09rem;
-    color: #000;
-    background-color: #fff;
-    padding: 0.04rem 0.08rem 0.03rem 0.08rem;
-}
-.footer .footer_centerAround {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0.09rem;
-    font-size: 0.09rem;
+    justify-content: flex-end;
     position: relative;
+    margin-bottom: 0.06rem;
 }
-.footer .footer_text1 {
-    width: 3.75rem;
-    display: flex;
-    justify-content: space-around;
+.menuClose {
+    width: 0.17rem;
+    height: 0.16rem;
+    position: absolute;
+    top: calc(50% - 0.08rem);
+    right: 0.17rem;
 }
-.footer .footer_text1 a {
-    font-size: 0.12rem; 
-    margin-left: 0.35rem;
-    width: 0.9rem;
-    display: inline-block;
-    text-align: left;
-}
-/*.footer .footer_text2 {
-    width: 3rem;
-    display: flex;
-    justify-content: space-around;
-
-}
-.footer .footer_text3 {
-    width: 2.5rem;
-    display: flex;
-    justify-content: space-around;
-
-}*/
-.footer .footer_centerAround a {
-    color: #fff;
-}
-.footer .footer_copyright {
-    color: #999;
-    font-size: 0.12rem;
+.downMenu li a {
+    font-size: 0.16rem;
+    display: block;
     text-align: center;
-    padding: 0.05rem 0;
-    border-top: 0.01rem solid #fff;
-    margin-top: 0.2rem;
+    line-height: 0.5rem;
+    width: 100%;
+    height: 0.5rem;
+    color: #fffefe;
+    border-bottom: 0.02px solid #ccc;
 }
-/*lookmore*/
+
 /*查看更多*/
-.common_lookmore {
+.lookmore {
+    padding: 0.19rem 0 0.24rem 0;
+    font-size: 0.15rem;
+    color: #727171;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*咨询、联系按钮*/
+.footer {
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.15rem;
+    color: #fff;
+    background: #b48845;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer_line {
+    width: 1px;
+    height: 0.27rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 50%;
+    background: #fff;
+}
+.consult, .OnlineBooking {
+    width: 50%;
+    height: 100%;
+    line-height: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.common_lookmore .common_lookmore_btn {
-    display: block;
-    width: 3.55rem;
-    height: 0.3rem;
-    border: 0.01rem solid #F7C939;
+.consult img {
+    width: 0.25rem;
+    height: 0.25rem;
+    margin-right: 0.13rem;
+}
+.OnlineBooking img {
+    width: 0.25rem;
+    height: 0.22rem;
+    margin-right: 0.13rem;
+}
+.bottom_companyNameBox {
+    width: 100%;
+    padding-top: 0.3rem;
+    background: #f4f6f8;
+}
+.bottom_companyName {
+    width: 100%;
+    height: 0.4rem;
     background: #fff;
-    outline: none;
+    font-size: 0.09rem;
+    color: #595757;
+    line-height: 0.4rem;
     text-align: center;
-    line-height: 0.3rem;
-    margin: 0rem 0 0.3rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.kingChina_active {
+    width: 100%;
+}
+.kingChina_active .navbox {
+    width: 100%;
+    display: flex;
+    margin: 0.1rem 0 0.07rem 0;
+}
+.kingChina_active .kingChina_nav {
+    width: 50%;
+    height: 0.47rem;
+    position: relative;
+}
+.kingChina_active .kingChina_nav h3 {
+    width: 100%;
+    height: 0.47rem;
+    line-height: 0.47rem;
+    text-align: center;
+    font-size: 0.15rem;
+    font-weight: bold;
+    color: #fff;
+    background: #d4d6db;
+}
+.kingChina_active .kingChina_nav.active h3 {
+    background: #b48845;
+}
+.triangle_border_down {
+    width:0;
+    height:0;
+    border-width:0.18rem 0.18rem 0;
+    border-style:solid;
+    border-color:#b48845 transparent transparent;/*灰 透明 透明 */
+    position: absolute;
+    bottom: -0.18rem;
+    left: calc(50% - 0.2rem);
+}
+.newslistBox {
+    padding-top: 0.1rem;
+}
+.kingChina_active .newslist {
+    width: 3.45rem;
+    padding: 0.13rem 0.15rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #dcdddd;
+}
+.kingChina_active .newslist img {
+    width: 1.21rem;
+    height: 0.9rem;
+}
+.kingChina_active .newslist .newslist_tips {
+    width: 2.11rem;
+    padding-top: 0.12rem;
+}
+.newslist_tips p {
     font-size: 0.12rem;
+    line-height: 0.2rem;
+    color: #303030;
+    font-weight: bold;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    white-space: normal;
+}
+.newslist_tips .time {
+    margin-top: 0.05rem;
+    display: flex;
+}
+.newslist_tips .time img {
+    width: 0.17rem;
+    height: 0.17rem;
+    margin-right: 0.1rem;
+}
+.newslist_tips .time span {
+    font-size: 0.12rem;
+    color: #9fa0a0;
 }
