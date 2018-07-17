@@ -115,6 +115,7 @@ body,html {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: #fff;
 }
 .consult img {
     width: 0.25rem;
@@ -221,4 +222,131 @@ body,html {
 .newslist_tips .time span {
     font-size: 0.12rem;
     color: #9fa0a0;
+}
+.OnlineBookingBox {
+    width: 100%;
+    height: calc(100vh - 1.22rem);
+    position: relative;
+    margin-top: 0.72rem;
+    z-index: 99;
+    background: #fff;
+}
+.OnlineBookingBox .imgHead {
+    width: 100%;
+    position: relative;
+}
+.OnlineBookingBox .imgHead img {
+    width: 100%;
+    height: 1.42rem;
+    vertical-align: top;
+}
+.OnlineBookingBox .imgHead div {
+    width: 2.4rem;
+    height: 1.26rem;
+    position: absolute;
+    top: 0.65rem;
+    left: 0.675rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    box-shadow: 0.05rem 0.05rem 0.15rem #ececec;
+}
+.OnlineBookingBox .imgHead div h3 {
+    font-size: 0.28rem;
+    color: #b48845;
+    margin: .39rem 0 .25rem 0;
+    font-weight: bold;
+    text-align: center;
+}
+.OnlineBookingBox .imgHead div p {
+    font-size: 0.08rem;
+    color: #727171;
+    font-weight: bold;
+    text-align: center;
+}
+.BookingForm {
+    margin-top: .88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BookingInput {
+    width: 3.1rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    box-shadow: 0.05rem .05rem 0rem #e9eaea;
+    border-radius: .04rem;
+    border: .01rem solid #dcdddd;
+    margin-bottom: .13rem;
+    font-size: .13rem;
+    color: #727171;
+    padding-left: .1rem;
+    outline: none;
+}
+.BookingArea {
+    width: 3.1rem;
+    height: .83rem;
+    padding-top: .17rem;
+    box-shadow: 0.05rem .05rem 0rem #e9eaea;
+    border-radius: .04rem;
+    border: .01rem solid #dcdddd;
+    margin-bottom: .13rem;
+    font-size: .13rem;
+    color: #727171;
+    padding-left: .1rem;
+    outline: none;
+}
+.BookingSubmit {
+    width: 3.1rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-radius: .04rem;
+    border: 0;
+    background: #b48845;
+    font-size: .15rem;
+    color: #fffefe;
+    text-align: center;
+}
+.consultation {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    display: none;
+}
+.consultation_box {
+    background: #fff;
+    width: 2.6rem;
+    height: 1.2rem;
+    border-radius: .04rem;
+    position: absolute;
+    top: calc(50vh - .6rem);
+    left: calc(50% - 1.3rem);
+}
+.consultation_box p {
+    height: .6rem;
+    width: 100%;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .15rem;
+    color: #727171;
+    border-bottom: .01rem solid #dcdddd;
+}
+.consultationBtn {
+    display: flex;
+    font-size: .15rem;
+    color: #b48845;
+}
+.cancle {
+    border-right: .01rem solid #dcdddd;
+}
+.cancle, .call {
+    display: block;
+    font-size: .15rem;
+    color: #b48845;
+    width: 50%;
+    height: .55rem;
+    line-height: .55rem;
+    text-align: center;
 }

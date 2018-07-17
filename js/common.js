@@ -20,3 +20,17 @@ $('.kingChina_nav').on('click, touchend', function () {
 	$(this).children('.triangle_border_down').show();
 	$(this).siblings().children('.triangle_border_down').hide();
 });
+
+// 立即咨询
+$('.consult').on('touchend', function () {
+	$('.consultation').show();
+});
+
+$('.consultation').on('touchend', function (event) {
+	event.stopPropagation();
+	$(this).hide();
+});
+$('.consultation .cancle').on('touchend', function (event) {
+	event.stopPropagation();
+	$('.consultation').hide();
+});
