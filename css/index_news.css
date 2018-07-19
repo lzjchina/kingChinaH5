@@ -1,0 +1,67 @@
+.content {
+	margin-top: 0.72rem;
+	padding-bottom: .15rem;
+    border-bottom: .01rem solid #dcdddd;
+}
+.content .title {
+	margin: 0 .15rem .2rem;
+	width: 3.45rem;
+	border-bottom: .01rem solid #dcdddd;
+}
+.content .title h3 {
+	width: 100%;
+	text-align: center;
+	font-size: 0.17rem;
+	color: #b48845;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-top: .15rem;
+}
+.content .title h5 {
+	width: 100%;
+	text-align: center;
+	font-size: 0.08rem;
+	color: #727171;
+	margin: .18rem 0;
+}
+.content .Article {
+	margin: 0 0.15rem;
+	width: 3.45rem;
+	font-size: 0.13rem;
+	color: #595757;
+}
+.bottom_companyNameBox {
+    padding-top: 0;
+}
+.page {
+    padding: .25rem 0;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page a {
+    display: block;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    font-size: .13rem;
+    color: #b48845;
+}
+.page .last {
+    width: .87rem;
+    border-radius: .2rem 0 0 .2rem;
+    border: .01rem solid #dcdddd;
+}
+.page .back {
+    width: .8rem;
+    border-top: .01rem solid #dcdddd;
+    border-bottom: .01rem solid #dcdddd;
+}
+.page .next {
+    width: .87rem;
+    border-radius: 0 .2rem .2rem 0;
+    border: .01rem solid #dcdddd;
+}

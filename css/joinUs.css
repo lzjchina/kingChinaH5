@@ -1,0 +1,98 @@
+.OnlineBookingBox {
+	height: 100%;
+}
+.join_main {
+	width: 3.45rem;
+	padding: 0 .15rem;
+	margin-top: .87rem;
+}
+.Post_introduction {
+	width: 100%;
+	line-height: .55rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: .15rem;
+	color: #221815;
+	font-weight: bold;
+	border-bottom: .01rem solid #dcdddd;
+}
+.Post_introduction img {
+	width: .1rem;
+	height: .18rem;
+}
+.tip {
+	width: 100%;
+	font-size: .13rem;
+	color: #727171;
+	margin: .2rem 0 .35rem 0;
+	line-height: .24rem
+}
+.linkBox {
+	padding-bottom: .35rem;
+}
+.link {
+	display: flex;
+	align-items: center;
+	font-size: .15rem;
+	color: #221815;
+	font-weight: bold;
+	margin-bottom: .23rem;
+}
+.link img {
+	width: .44rem;
+	height: .44rem;
+	margin: 0 .12rem 0 .1rem;
+}
+.postLayerBg {
+	width: 3.45rem;
+	/*margin-top: .72rem;*/
+	height: 100%;
+	padding: 0 .15rem;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	z-index: 101;
+	top: 0;
+	display: flex;
+	align-items: center;
+}
+.postLayerBox {
+	width: 3.15rem;
+	padding: 0 .15rem;
+	background: #fff;
+	border-radius: .1rem;
+	position: relative;
+}
+.layerContent {
+	max-height: 5rem;
+	overflow-y: auto; 
+}
+.closeIconBox {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.closeIcon {
+	width: .18rem;
+	height: .18rem;
+	float: right;
+	margin-top: .15rem;
+}
+.postName {
+	font-size: .15rem;
+	color: #221815;
+	padding: .37rem 0 .25rem 0;
+	font-weight: bold;
+}
+.Duty, .Requirement {
+	font-size: .12rem;
+	color: #727171;
+	line-height: .2rem;
+	margin-bottom: .3rem;
+}
+.Duty h4, .Requirement h4 {
+	font-size: .12rem;
+	font-weight: bold;
+	color: #221815; 
+}

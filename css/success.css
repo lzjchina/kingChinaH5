@@ -1,0 +1,51 @@
+.main {
+	width: 3.45rem;
+	padding: 0 .15rem;
+	margin-top: .9rem;
+	margin-bottom: .25rem;
+}
+.main .section {
+	width: 100%;
+	padding-bottom: .25rem;
+	position: relative;
+}
+.section .title {
+	width: 100%;
+	height: .56rem;
+	background: url(../../images/success_title_bg.png) center/100% 100% no-repeat;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.section .title span {
+	width: .2rem;
+	height: .23rem;
+	display: block;
+	background: url(../../images/success_title_icon.png) center/100% 100% no-repeat;
+	text-align: center;
+	line-height: .23rem;
+	font-size: .15rem;
+	color: #b48845;
+	margin: 0 .15rem;
+	margin-bottom: .1rem;
+}
+.section .title h3 {
+	line-height: .5rem;
+	color: #fff;
+	font-size: .15rem;
+	margin-bottom: .1rem;
+}
+.success_secImg {
+	width: 100%;
+	height: 1.56rem;
+	margin-top: .47rem;
+}
+.success_secText {
+	font-size: .12rem;
+	color: #727171;
+	line-height: .2rem;
+	background: #f8f8f8;
+	padding: .15rem;
+}

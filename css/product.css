@@ -1,0 +1,95 @@
+.pageTitle {
+    width: 100%;
+    display: flex;
+}
+.pageTitle li {
+    height: .46rem;
+    line-height: .46rem;
+    text-align: center;
+    background: #b48845;
+}
+.pageTitle .last, .pageTitle .next {
+    font-size: .12rem;
+    color: #fff;
+    width: .5rem;
+}
+.pageTitle .last.active, .pageTitle .next.active {
+    color: #dcc9b2;
+}
+.pageTitle .title {
+    font-size: .15rem;
+    color: #fff;
+    width: 2.41rem;
+    border-left: .01rem solid #f8f8f8;
+    border-right: .01rem solid #f8f8f8;
+    position: relative;
+}
+.main {
+    width: 3.45rem;
+    padding: 0 .15rem;
+    margin-bottom: 0.5rem;
+}
+.section {
+    width: 100%;
+    margin-top: .35rem;
+}
+.section .Name {
+    display: flex;
+    align-items: center;
+    margin-bottom: .17rem;
+}
+.section .Name img {
+    width: .14rem;
+    height: .12rem;
+    margin-right: .05rem;
+}
+.section .Name span {
+    font-size: .14rem;
+    color: #221815;
+    font-weight: bold;
+}
+.productTable {
+    font-size: .12rem;
+    border-collapse: collapse;
+}
+.productTable tr td {
+    height: .42rem;
+    min-height: .42rem;
+    border: .01rem solid #221815;
+    text-align: center;
+}
+.productTable td:nth-of-type(1) {
+    width: .72rem;
+}
+.productTable td:nth-of-type(2) {
+    line-height: .18rem;
+    text-align: left;
+    padding: 0 .15rem;
+}
+.colorb48845 {
+    color: #b48845;
+}
+.product2Img {
+    width: 2.77rem;
+    height: 2.9rem;
+}
+.BrightSpot li {
+    margin-bottom: .25rem;
+}
+.BrightSpot li h3 {
+    font-size: .12rem;
+    font-weight: bold;
+    color: #b48445;
+    margin-bottom: .07rem;
+}
+.BrightSpot li p {
+    font-size: .1rem;
+    color: #221815;
+    line-height: .2rem;
+}
+.hotTip {
+    font-size: .1rem;
+    color: #221815;
+    line-height: .2rem;
+    padding-bottom: .75rem;
+}

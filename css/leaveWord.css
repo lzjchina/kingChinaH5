@@ -1,0 +1,85 @@
+.content {
+    width: 3.45rem;
+    height: 100vh;
+    padding: 0 0.15rem;
+    background: #ededed;
+}
+.title {
+    width: 100%;
+    font-size: .14rem;
+    color: #727171;
+    line-height: .5rem;
+    font-weight: bold;
+}
+.leaveWords {
+    width: 3.25rem;
+    height: 2.28rem;
+    border: .01rem solid #dcdddd;
+    border-radius: .04rem;
+    padding: 0 0.1rem;
+    font-size: .16rem;
+    color: #c9caca;
+    background: #fff;
+}
+.leaveWords h2{
+    line-height: .35rem;
+    margin-bottom: .12rem;
+    border-bottom: .01rem solid #dcdddd;
+}
+.leaveWords textarea {
+    width: 100%;
+    border: 0;
+    height: 1.75rem;
+    outline: none;
+    resize: none;
+}
+.ContactMsg {
+    height: .95rem;
+    width: 100%;
+    border-radius: .04rem;
+    border: .01rem solid #dcdddd;
+    font-size: .16rem;
+    color: #c9caca;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: .25rem;
+    align-items: center;
+}
+.ContactMsg label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ContactMsg label span {
+    display: block;
+    width: .16rem;
+    height: .16rem;
+    margin-right: .12rem;
+}
+.ContactMsg label input {
+    width: 2.9rem;
+    line-height: .42rem;
+    border: 0;
+    border-bottom: .01rem solid #dcdddd;
+}
+.contactNameImg {
+    background: url('../images/head.png') center/100% 100% no-repeat;
+}
+.contactPhoneImg {
+    background: url('../images/phone2.png') center/100% 100% no-repeat;
+}
+.ContacSend {
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    outline: none;
+    border-radius: .04rem;
+    border: 0;
+    background: #b48845;
+    font-size: .15rem;
+    color: #fffefe;
+    display: block;
+    margin-top: .25rem;
+}

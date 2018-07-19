@@ -98,6 +98,7 @@ body,html {
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 100;
 }
 .footer_line {
     width: 1px;
@@ -172,12 +173,12 @@ body,html {
 .triangle_border_down {
     width:0;
     height:0;
-    border-width:0.18rem 0.18rem 0;
+    border-width:0.09rem 0.09rem 0;
     border-style:solid;
-    border-color:#b48845 transparent transparent;/*灰 透明 透明 */
+    border-color:#b48845 transparent transparent;
     position: absolute;
-    bottom: -0.18rem;
-    left: calc(50% - 0.2rem);
+    bottom: -0.09rem;
+    left: calc(50% - 0.1rem);
 }
 .newslistBox {
     padding-top: 0.1rem;
@@ -200,6 +201,7 @@ body,html {
 .newslist_tips p {
     font-size: 0.12rem;
     line-height: 0.2rem;
+    min-height: .41rem;
     color: #303030;
     font-weight: bold;
     word-break: break-all;
