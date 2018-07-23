@@ -296,6 +296,7 @@ body,html {
     color: #727171;
     padding-left: .1rem;
     outline: none;
+    resize: none;
 }
 .BookingSubmit {
     width: 3.1rem;
